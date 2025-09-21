@@ -4,8 +4,9 @@ Hello, this is a project I made to simulate a leaky integrate-and-fire neuron in
 
 ## Features
 -   LIF neuron model implemented with Euler integration
+-   Adjustable initial membrane potential and constant input current variables - lifmodel
     
--   Adjustable **noise level (σI)**
+-   Adjustable **noise level (σI)** - lifmodel_calccv.py
     
 -   Automatic computation of:
     
@@ -15,13 +16,9 @@ Hello, this is a project I made to simulate a leaky integrate-and-fire neuron in
         
     -   Spike rates
         
--   Publication-style plots
-
 ## Example Outputs
 Membrane potential trace as a function of starting membrane potential and input current.
 Spike rate vs. input current
-
-
 
 Membrane potential trace with noise level σ
 ISI histogram
