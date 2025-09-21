@@ -4,9 +4,9 @@ Hello, this is a project I made to simulate a leaky integrate-and-fire neuron in
 
 ## Features
 -   LIF neuron model implemented with Euler integration
--   Adjustable initial membrane potential and constant input current variables - lifmodel
+-   Adjustable initial **membrane potential** and constant **input current** variables - *lifmodel.py*
     
--   Adjustable **noise level (σI)** - lifmodel_calccv.py
+-   Adjustable **noise level (σI)** - *lifmodel_calccv.py*
     
 -   Automatic computation of:
     
